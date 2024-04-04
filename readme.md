@@ -29,7 +29,8 @@
    - > `pip install requirements.txt`
 5. To import the data into sqlite db from csv file
    - copy the python code in filename **import_data.py** in **src** directory
-   - open the terminal in project root directory
+   - open the terminal in project root directory and run the below command
+   - > flask shell
    - paste the code in terminal and hit enter to initialize the db and to import the data from csv file to sqlite DB
    - exit from flask shell using exit() command
 6. Run the below command to start the Flask server
